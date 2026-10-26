@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დავალებების მენეჯერი</title>
+    <link rel="stylesheet" href="stili.css">
+</head>
+<body>
+    <main class="mtavari">
+        <header class="tavis-teqstebi">
+
+            <p class="patara-teqsti">დღის გეგმები</p>
+
+            <h1 class="satauri">დავალებების მენეჯერი</h1>
+
+            <p class="mokle-agwera">ეს საიტი გეხმარებათ
+            დავალებების დაგეგმვაში, შესრულებასა და 
+            დასრულებულად მონიშვნაში.</p>
+
+        </header>
+
+        <section class="statistikis-bloki">
+            <div class="statistikis-barati">
+                <p>სულ დავალებები</p>
+                <span id="sul-davalebebi">0</span>
+            </div>
+
+            <div class="statistikis-barati">
+                <p>დასრულებული</p>
+                <span id="dasrulebuli-davalebebi">0</span>
+            </div>
+        </section>
+
+        <form class="davalebis-damatebis-forma">
+            <h2 class="davalebis-satauri">ახალი დავალება</h2>
+            <input type="text" placeholder="ჩაწერე ახალი დავალება">
+            <button class="damatebis-gilaki" type="button">დამატება</button>
+        </form>
+
+        <section class="davalebebis-bloki">
+            <div class="davalebebis-tavi">
+                <h2 class="davalebebis-satauri">ჩემი დავალებები</h2>
+
+                <div class="filtris-gilakebi">
+                    <button id="yvela-davaleba" class="aqtiuri-filtri" type="button">ყველა</button>
+                    <button id="aqtiuri-davaleba" type="button">აქტიური</button>
+                    <button id="dasrulebuli-davaleba" type="button">დასრულებული</button>
+                </div>
+            </div>
+
+            <ul id="davalebebis-sia" class="davalebebis-sia">
+            </ul>
+        </section>
+
+        <section class="ganwyobis-bloki">
+
+            <div class="ganwyobis-smaili">😟</div>
+
+            <h2 class="ganwyobis-satauri">
+                დაამთავრე დავალებები, რომ გამახარო!
+            </h2>
+
+            <div class="ganwyobis-machvenebeli">
+                <div class="ganwyobis-werti"></div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="moqmedebebi.js"></script>
+</body>
+</html>
